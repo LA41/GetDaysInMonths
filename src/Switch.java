@@ -1,6 +1,8 @@
 public class Switch {
     public static void main(String[] args) {
+        // check whether year is a leap one
         System.out.println(isLeapYear(2000));
+        // check how many days February had 810 years ago
         System.out.println(getDaysInMonth(2, 1212));
     }
     public static boolean isLeapYear(int year) {
